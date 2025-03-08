@@ -7,6 +7,13 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+# File: gurbani-insight/.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
 .Python
 build/
 develop-eggs/
@@ -20,6 +27,7 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 share/python-wheels/
 *.egg-info/
 .installed.cfg
@@ -169,3 +177,37 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Database and files
+chroma_db/
+data/*.csv
+data/*.pdf
+*.db
+volumes/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+>>>>>>> 0173953 (Initial commit - Gurbani Insight)
